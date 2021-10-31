@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Formulaire pour CV</title>
+	 <meta charset="utf-8"/>
+</head>
+<body>
+     <form method="post" action="traitement.php">
+	 <fieldset>		    
+		 <legend>Veuillez remplir le formulaire</legend>
+		 
+		 <label>Nom:</label>
+		 <input type="texte" name="Nom">
+		 <label>Prénom:</label>
+		 <input type="texte" name="Prénom"><br>
+		 <br><label>Date de naissance:</label>
+		 <input type="date" id="send" oninput="result.value=send.value"><br>
+		 <br><label>Adresse:</label>
+		 <input type="texte" name="Adresse"><br>
+		 <br>Sexe:<br>
+		 <input type="radio" name="sexe" value="Homme">Homme 
+		 <input type="radio" name="sexe" value="Femma">Femme
+		 <input type="radio" name="sexe" value="Autre">Autre<br>
+		 
+		 <label>TITRE DU CV:</label>
+		 <input type="texte" name="Titre du cv"><br>
+		 
+		 <br><label>Descriptif de l'objectif professionel</label>
+		 <textarea rows="10" cols="50"></textarea><br>
+		 
+		 <div class="section">
+		 <h1>Formation:</h1>
+			<div class="sec-gauche">
+			<h2>Dates:</h2>
+			     <input type="texte" name="date">
+			</div>
+			<div class="sec-droite">
+			<h2>Diplômes et formation:</h2>
+			     <textarea rows="10" cols="50"></textarea><br>
+			</div>
+		</div><br>
+		 <br><div class="section">
+		 <h1>Compétences techniques:</h1>
+		     <textarea rows="10" cols="50"></textarea>
+		</div>
+		<div class="section">
+		<h1>Compétences:</h1>
+		    <textarea rows="10" cols="50"></textarea>
+		</div>
+		<br><input type="submit" name="Envoyer"><br>
+	</fieldset>
+</body>
+</html>
+		
+			
+		 
+		  
+		 	
+		 
